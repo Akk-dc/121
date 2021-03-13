@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+
+.header{
+    height:70px;
+    line-height:70px;
+    font-size: 14px;
+    background-color:#354457;
+    color:#b3bcc5;
+}
+
+.header img{
+    padding-left:20px;
+    vertical-align: middle;
+    width: 30px;
+    height:30px;
+}
+.menu{
+    position:fixed;
+    width:200px;
+    height:calc(100% - 70px);
+    background-color:#4d5e70;
+    color:#b3bcc5;
+    font-size:14px;
+    line-height: 40px;
+}
+
+.menu dt{
+   padding-left:10px;
+}
+.menu dd{
+    padding-left:40px;
+    cursor:pointer;
+}
+
+.menu dd:hover{
+    background-color: rgb(255,255,255,0.5);
+    color:#354457;
+}
+.menu dd.active{
+    background-color: #ddd;
+    color:#354457;
+}
+.content{
+    margin-left:200px;
+    background-color: #eee;
+    height:calc(100vh - 70px);
+    overflow-y:scroll;
+}
+
+.content .student-content{
+    display: none;
+}
+
+.content .active-content{
+    display: block;
+}
+
+#student-body{
+    width:100%;
+    text-align:center;
+    line-height:30px;
+    font-size: 14px;
+}
+#student-body thead{
+    background-color: #e3e8ee;
+    color:#646987;
+}
+
+#student-body tbody{
+    background-color: #fff;
+}
+
+#student-body .btn{
+    color:#fff;
+    padding:5px 10px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+}
+
+#student-body .edit{
+    background-color:#5cb85c;
+}
+
+#student-body .remove{
+    background-color:#d9534f;
+}
+
+#student-add-form{
+    width: 400px;
+    margin: 20px auto;
+}
+
+#student-add-form label:not(.sex){
+    width:100px;
+    display: inline-block;
+    text-align:right;
+    margin-right:10px;
+}
+
+/* #student-add-form .sex{
+    width:100px;
+} */
+
+#student-add-form div{
+    margin: 10px 0;
+}
+
+#student-add-form .btn{
+    padding:5px 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
